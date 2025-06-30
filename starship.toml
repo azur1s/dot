@@ -1,8 +1,0 @@
-format = "$directory "
-add_newline = false
-
-[directory]
-format = "[$path](fg:blue)[$read_only](fg:red)"
-read_only = " R"
-truncate_to_repo = true
-truncation_length = 1

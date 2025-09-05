@@ -1,0 +1,32 @@
+* {
+    font-size: 12px;
+    font-family: "Iosevka", monospace;
+    border-radius: 0;
+}
+
+window > box {
+    margin: 8px 8px 0;
+    background: #000000;
+}
+
+window#waybar {
+    background: transparent;
+    color: #ffffff;
+    /* border: 1px solid #ee5396; */
+}
+
+#workspaces, #window, #battery, #clock {
+    padding: 0 8px;
+}
+
+#workspaces button {
+    padding: 0 0;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid transparent;
+}
+
+#workspaces button.focused {
+    border-bottom: 1px solid white;
+}
+

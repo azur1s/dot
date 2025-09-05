@@ -1,0 +1,16 @@
+[general]
+live_config_reload = true
+import = [
+    "~/.config/alacritty/oxocarbon-dark.toml"
+]
+
+[font]
+size = 12.5
+normal = { family = "Fragment Mono", style = "Regular" }
+bold = { family = "Fragment Mono", style = "Regular" }
+italic = { family = "Fragment Mono", style = "Italic" }
+bold_italic = { family = "Fragment Mono", style = "Italic" }
+
+[window]
+padding = { x = 8, y = 8 }
+
